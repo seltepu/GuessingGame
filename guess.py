@@ -21,8 +21,8 @@ def guesser():
             print("Invalid. Input a number!")
     
     value = number_generator()
-    while player_guess !=value:
-        if player_guess<value:
+    while player_guess != value:
+        if player_guess < value:
             print("Guess a larger number!")
                 
         else:
